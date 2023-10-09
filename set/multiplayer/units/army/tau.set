@@ -1,0 +1,300 @@
+﻿
+;==========================================Пехота==========================
+
+;T1 dron mv1
+("squad_with2types" side(tau) name(sq_tau_mv1) 				c(120) g(sq_mv1) c1(tau_mv1:5) c2(tau_mv1:1) b(squad1) t(pulse inf_a_inf) level(1) cost(60) f(1))
+
+;T0 Войны огня - Карабины
+("squad_with3types" side(tau) name(sq_tau_fw_pc) 			c(1) g(sq_fw) c1(fw_serg_pc:1) c2(fw_pc:6)  c3(tau_mv4_pc:1) b(squad1) t(pulse inf_tac) level(4) cost(80) f(-30))
+
+;T0 Войны огня - Винтовки
+("squad_with3types" side(tau) name(sq_tau_fw_pr) 			c(1) g(sq_fw) c1(fw_serg_pr:1) c2(fw_pr:6)  c3(tau_mv31:1) b(squad1) t(pulse inf_tac) level(1) cost(65) f(-30))
+
+
+;T1 dron mv8
+("squad_with2types" side(tau) name(sq_tau_mv8) 				c(120) g(sq_mv8) c1(tau_mv84_at:1) c2(tau_mv8_at:2) b(squad1) t(pulse inf_a_veh) level(1) cost(180) f(0))
+
+;T1 Войны огня Ветераны - Карабины
+("squad_with3types" side(tau) name(sq_tau_fw_vet_pc) 		c(30) g(sq_fw_vet) c1(fw_vet_serg_pc:1) c2(fw_vet_pc:6)  c3(tau_mv84:1) b(squad1) t(pulse inf_tac) level(4) cost(120) f(-7))
+
+;T1 Войны огня Ветераны - Винтовки
+("squad_with3types" side(tau) name(sq_tau_fw_vet_pr) 		c(30) g(sq_fw_vet) c1(fw_vet_serg_pr:1) c2(fw_vet_pr:6)  c3(tau_mv36:1) b(squad1) t(pulse inf_tac) level(1) cost(100) f(-7))
+
+
+;T1 dron mv84
+("squad_with2types" side(tau) name(sq_tau_mv84) 			c(120) g(sq_mv8) c1(tau_mv84:1) c2(tau_mv84:2) b(squad1) t(pulse inf_tac) level(1) cost(280) f(-3))
+
+;T2 Войны огня Штурмовики
+("squad_with3types" side(tau) name(sq_tau_fw_as) 			c(120) g(sq_fw_vet) c1(as_fw_serg:1) c2(as_fw:6)  c3(tau_mv4_pb:1) b(squad1) t(pulse inf_tac) level(1) cost(100) f(-3))
+
+;T2 Войны огня Элита
+("squad_with3types" side(tau) name(sq_tau_fw_elite) 		c(120) g(sq_fw_elite) c1(elite_fw_serg:1) c2(elite_fw:6)  c3(tau_mv84:1) b(squad1) t(pulse inf_tac) level(4) cost(120) f(-3))
+
+
+;Крууты
+("squad_with4types" side(tau) name(sq_tau_kroot) 			c(45) g(kroot) c1(kroot_shaper:1) c2(kroot:5) c3(kroot_01:2) c4(kroot_02:2) b(squad1) t(pulse inf_a_inf) level(1) cost(40) f(1))
+
+;T0 Гвардейцы
+("squad_with4types" side(tau) name(sq_tau_guard) 			c(60) g(guard) c1(tau_guard_serg_pr:1) c2(tau_guard_lg:4) c3(tau_guard_lg_01:4) c4(tau_guard_gl:1) b(squad1) t(all inf_a_inf) level(1) cost(80) f(1))
+
+
+
+;Следопыты
+("squad_with3types" side(tau) name(sq_tau_pf_pulse) 	c(10) g(pf_pul) c1(pathfinder_serg:1) c2(pathfinder:5) c3(tau_mv7:1) b(squad3) t(pulse inf_com) level(1) cost(30) f(1))
+
+;Следопыты рельсовые Винтовки винтовки
+("squad_with3types" side(tau) name(sq_tau_pf_rail) 		c(240) g(pf_rail) c1(pathfinder_serg_rail:1) c2(pathfinder_rail:2) c3(tau_mv7:1) b(squad3) t(ion inf_a_veh) level(1) cost(240) f(0.5))
+
+;Следопыты Ионные винтовки
+("squad_with3types" side(tau) name(sq_tau_pf_ion) 		c(120) g(pf_ion) c1(pathfinder_serg_ion:1) c2(pathfinder_ion:4) c3(tau_mv7:1) b(squad3) t(ion inf_a_inf) level(1) cost(240) f(-1))
+
+;XV15=30	XV15_at=50	XV25=60		XV25_at=80
+
+
+;Маскировочный отряд XV15 - бурстки
+("squad_with2types" side(tau) name(sq_XV15) 			c(120) g(squad_3) c1(xv25:1) c2(xv15:4) b(squad3) t(stealth pulse inf_a_inf) level(1) cost(160) f(-1))
+
+;Маскировочный отряд XV15 - Фузионный бластер
+("squad_with2types" side(tau) name(sq_XV15_at) 			c(120) g(squad_3) c1(xv25_at:1) c2(xv15_at:2) b(squad3) t(stealth inf_a_veh) level(1) cost(180) f(-1))
+
+;Маскировочный отряд XV25
+("squad_with2types" side(tau) name(sq_XV25_at) 			c(240) g(squad_4) c1(xv25_at:3) c2(xv25:2) b(squad3) t(stealth inf_a_veh) level(1) cost(320) f(-3))
+
+
+;T1 dron mv1
+("squad_with2types" side(tau) name(sq_tau_mv71) 		c(120) g(squad_71) c1(tau_mv7:1) c2(tau_mv71:3) b(squad3) t(pulse inf_a_inf) level(1) cost(60) f(-1))
+
+
+
+
+;Элита войнов огня - Карабины
+;ZAM;("squad_with2types" side(tau) name(sq_vet_fw_carabine) 	c(50) g(sq_3) c1(fw_vet_serg:1) c2(fw_vet:7) b(squad1) t(pulse inf_vet) level(4) cost(130) f(-5))
+
+;Элита войнов огня - Винтовки
+;ZAM;("squad_with2types" side(tau) name(sq_vet_fw) 				c(50) g(sq_3) c1(fw_vet_serg_pr:1) c2(fw_vet_pr:7) b(squad1) t(pulse inf_vet) level(4) cost(130) f(-5))
+
+;Штурмовые войны огня
+;ZAM;("squad_with2types" side(tau) name(sq_assault_fw) 			c(50) g(sq_4) c1(assault_fw_serg:1) c2(assault_fw:7) b(squad1) t(pulse inf_a_inf) level(4) cost(180) f(-9.8))
+
+
+;Дрон - генератор щитов
+;ZAM;{"tau_drone_shild"						("v_1_i_0" c(30) c1(tau_shild_drone) t(all non) s(tau) g(sq_5) cp(1) b(squad1)) {level 1} {cost 40} {score 15} {fore -2}}
+
+;Дрон - Спареные карабины
+;ZAM;{"tau_drone_pc"						("v_3_i_0" c(60) c1(tau_attack_drone) c2(tau_attack_drone) c3(tau_attack_drone) t(all non) s(tau) g(sq_6) cp(3) b(squad1)) {level 1} {cost 80} {score 15} {fore -1}}
+
+;Дрон - Ракеты
+;ZAM;{"tau_drone_ml"						("v_1_i_0" c(60) c1(tau_attack_drone_ml) 		t(all non) s(tau) g(sq_7) cp(1) b(squad1)) {level 1} {cost 70} {score 15} {fore -1}}
+
+;Дрон - Спареные Скорострелки
+;ZAM;{"tau_gun_drone"						("v_3_i_0" c(120) c1(tau_gun_drone_bc) c2(tau_gun_drone_bc) c3(tau_gun_drone_bc) 		t(all non) s(tau) g(sq_8) cp(6) b(squad1)) {level 1} {cost 160} {score 15} {fore -1.5}}
+
+;=================================Спецотряды=================================;
+;Следопыты с рейлганом
+;ZAM;("squad_with1types" side(tau) name(sq_pathfinder_railrifle) c(240) g(squad_1) c1(pathfinder_serg_railrifle:3) b(squad3) t(railrifle inf_a_all) level(1) cost(80) f(-0.25))
+
+;Маскировочный отряд XV15 - бурстки
+;ZAM;("squad_with2types" side(tau) name(sq_XV15) 				c(120) g(squad_3) c1(xv15:4) c2(xv25:1) b(squad3) t(stealth pulse inf_a_inf) level(1) cost(150) f(-1))
+
+;Маскировочный отряд XV15 - Ионный бластер
+;ZAM;("squad_with1types" side(tau) name(sq_XV15_at) 			c(120) g(squad_3) c1(xv15_at:2) b(squad3) t(stealth inf_a_veh) level(1) cost(80) f(-3.5))
+
+;Маскировочный отряд XV25 
+;ZAM;("squad_with2types" side(tau) name(sq_XV25_at) 			c(120) g(squad_4) c1(xv25:3) c2(xv25_at:2) b(squad3) t(stealth inf_a_veh) level(1) cost(300) f(-3.5))
+
+;Пилоты
+("squad_with1types" side(tau) name(crew) 						c(10) g(squad_5) c1(tanker:4) b(squad1) t(tankman non) level(1) cost(10) f(-11))
+
+;=================================Разведтранспорт =================================; v2 sent
+
+;Пиранья - Скорострелки
+;ZAM;{"tau_piranha_bc"									("v_1_i_2" c(60) c1(tau_piranha_bc) t(all sup_sct) s(tau) n1(tanker_serg:1) n2(tanker:1) g(b15) cp(10) b(v2)) {level 1} {cost 115} {fore -1}}
+
+;Пиранья - Фузион
+;ZAM;{"tau_piranha_fus"									("v_1_i_2" c(60) c1(tau_piranha_fus) t(all sup_a_veh) s(tau) n1(tanker_serg:1) n2(tanker:1) g(b15) cp(10) b(v2)) {level 1} {cost 120} {fore -1}}
+
+;Пиранья ТИэкс - рейлган
+;ZAM;{"tau_tx42_rel"									("v_1_i_2" c(120) c1(tau_tx42_rel) t(all sup_a_veh) s(tau) n1(tanker:1) n2(tanker_serg:1) g(b16) cp(10) b(v2)) {level 1} {cost 180} {fore -1.5}}
+
+;Пиранья ТИэкс - Фузион
+;ZAM;{"tau_tx42_fus"									("v_1_i_2" c(120) c1(tau_tx42_fus) t(all sup_a_veh) s(tau) n1(tanker:1) n2(tanker_serg:1) g(b16) cp(10) b(v2)) {level 1} {cost 140} {fore -3.5}}
+
+;Пиранья ТИэкс -плазма
+;ZAM;{"tau_tx42_pl"										("v_1_i_2" c(120) c1(tau_tx42_pl) t(all inf_a_inf) s(tau) n1(tanker:1) n2(tanker_serg:1) g(b16) cp(10) b(v2)) {level 1} {cost 130} {fore -3.5}}
+
+;Пиранья ТИэкс - Ракеты
+;ZAM;{"tau_tx42_ml"										("v_1_i_2" c(120) c1(tau_tx42_ml) t(all sup_a_veh) s(tau) n1(tanker:1) n2(tanker_serg:1) g(b15) cp(10) b(v2)) {level 1} {cost 180} {fore -3.5}}
+
+;=================================Артиллерия=================================; v2
+;Звёздный Лучь
+;ZAM;{"skyray"					("v_1_i_1" c(300) c1(skyray) t(all veh_art) s(tau) 		n1(tanker:4) g(art_1) cp(20) b(v1)) {level 1} {cost 480} {score 55} {fore -0.8}}
+
+;РСЗО Skyray
+{"tau_skyray_bc"				("v_1_i_1" c(300) c1(tau_skyray_bc) t(all non) s(tau) 		n1(tanker:4) g(art_1) cp(20) b(v1)) {level 1} {cost 580} {score 55} {fore -2.4}}
+
+;РСЗО Skyray
+{"tau_skyray_ml"				("v_1_i_1" c(300) c1(tau_skyray_ml) t(all non) s(tau) 		n1(tanker:4) g(art_1) cp(20) b(v1)) {level 1} {cost 680} {score 55} {fore -2.4}}
+
+;РСЗО Skyray lr
+{"tau_skyray_bc_lr"				("v_1_i_1" c(720) c1(tau_skyray_bc_lr) t(all veh_art) s(tau) 	n1(tanker:4) g(art_1) cp(20) b(non)) {level 1} {cost 680} {score 55} {fore 0}}
+
+
+;Орбитальный удар
+;ZAM;{"tau_skyray_strike"				("v_1_i_0" c(480) c1(tau_skyray_strike)		t(all strike) s(tau) g(art_2) cp(0) b(v1)) {cost 400} {fore -1.25}}
+;-------иницилизация
+;ZAM;{"skyray_rocket_strike"			("v_1_i_0" c(0) c1(skyray_rocket_strike)		t(all non) s(tau) g(non) cp(0) b(non)) {cost 1} {fore 0}}
+;ZAM;{"skyray_rocket"				("v_1_i_0" c(0) c1(skyray_rocket)		t(all non) s(tau) g(non) cp(0) b(non)) {cost 1} {fore 0}}
+
+;Тетра - Отключен
+;;ZAM;{"tau_tetra"						("v_1_i_2" c(120) c1(tau_tetra) t(all) s(tau) 	n1(tanker:2) g(tetra) cp(10) b(v1)) {level 1} {cost 50} {fore 0}}
+;=================================Экзоскелеты=================================;
+
+;T2 Кризисы - Скорострел пушки
+{"sq_xv8_bc"					("v_3_i_0" c(120) c1(tau_xv8_crisis_com_bc_arb) c2(tau_xv8_crisis_bc_bc) c3(tau_xv8_crisis_pc_bc) 		t(all veh_a_inf) s(tau) g(crysis_1) cp(6) b(v3)) {level 1} {cost 490} {score 15} {fore -3.5}}
+
+;T2 Кризисы - FUS
+{"sq_xv8_fus"					("v_3_i_0" c(120) c1(tau_xv8_crisis_com_fus_arb) c2(tau_xv8_crisis_fus_fus) c3(tau_xv8_crisis_fus_bc) 	t(all veh_a_veh) s(tau) g(crysis_1) cp(6) b(v3)) {level 1} {cost 520} {score 15} {fore -3.5}}
+
+;T2 Кризисы - Огнеметы
+{"sq_xv8_fl"					("v_3_i_0" c(120) c1(tau_xv8_crisis_com_fl_arb) c2(tau_xv8_crisis_fl_fl) c3(tau_xv8_crisis_fus_fl) 		t(all veh_a_inf) s(tau) g(crysis_1) cp(6) b(v3)) {level 1} {cost 480} {score 15} {fore -3.5}}
+
+
+;T3 Кризисы - ION
+{"sq_xv8_ion"					("v_3_i_0" c(240) c1(tau_xv8_crisis_com_ion_smp) c2(tau_xv8_crisis_ion_bc) c3(tau_xv8_crisis_ion_pc)	t(all veh_a_inf) s(tau) g(crysis_2) cp(6) b(v3)) {level 1} {cost 580} {score 15} {fore -3}}
+
+;T3 Кризисы - Плазма
+{"sq_xv8_pc"					("v_3_i_0" c(240) c1(tau_xv8_crisis_com_pc_smp) c2(tau_xv8_crisis_pc_pc) c3(tau_xv8_crisis_pc_fus)	t(all veh_a_all) s(tau) g(crysis_2) cp(6) b(v3)) {level 1} {cost 600} {score 15} {fore -3}}
+
+;T3 Кризисы - Гранатомёты
+{"sq_xv8_arb"					("v_3_i_0" c(240) c1(tau_xv8_crisis_com_pc_arb) c2(tau_xv8_crisis_arb_arb) c3(tau_xv8_crisis_arb_bc)	t(all veh_a_inf) s(tau) g(crysis_2) cp(6) b(v3)) {level 1} {cost 520} {score 15} {fore -3}}
+
+;T3 Кризисы - Тяжёлые
+{"sq_xv8_heavy_ion"				("v_3_i_0" c(240) c1(tau_xv8_heavy_com_ion_arb) c2(tau_xv8_heavy_pc_arb) c3(tau_xv8_heavy_fus_arb) 	t(all veh_a_inf) s(tau) g(crysis_4) cp(6) b(v3)) {level 1} {cost 600} {score 15} {fore -3}}
+
+;Броад сайд - Рэил пушка
+;ZAM;{"xv88_broadside_railgun_sm"	("v_1_i_0" c(120) c1(xv88_broadside_railgun_sm) t(all veh_a_veh) s(tau) g(crysis_4) cp(6) b(v3)) {level 1} {cost 380} {score 50} {fore -3.5}}
+
+;Броад сайд - Ракеты
+;ZAM;{"xv88_broadside_hy_sm_sm"		("v_1_i_0" c(120) c1(xv88_broadside_hy_sm_sm) 	t(all veh_a_all) s(tau) g(crysis_4) cp(6) b(v3)) {level 1} {cost 380} {score 50} {fore -3.5}}
+
+;xv88_broadside
+
+
+{"tau_xv88_broadside_hymp_smp_smp"		("v_1_i_0" c(300) c1(tau_xv88_broadside_hymp_smp_smp)	cp(20)	t(all non) s(tau) g(xv88_1) b(v4)) {cost 460} {score 50} {fore -0.6}}
+
+{"tau_xv88_broadside_hymp_smp_pr"		("v_1_i_0" c(300) c1(tau_xv88_broadside_hymp_smp_pr)	cp(20)	t(all non) s(tau) g(xv88_2) b(v4)) {cost 480} {score 50} {fore -0.6}}
+
+{"tau_xv88_broadside_hymp_smp_skm"		("v_1_i_0" c(300) c1(tau_xv88_broadside_hymp_smp_skm)	cp(20)	t(all non) s(tau) g(xv88_3) b(v4)) {cost 540} {score 50} {fore -0.6}}
+
+
+{"tau_xv88_broadside_railgun_pr_pr"	 	("v_1_i_0" c(300) c1(tau_xv88_broadside_railgun_pr_pr)	cp(20)	t(all non) s(tau) g(xv88_1) b(v4)) {cost 500} {score 50} {fore -0.6}}
+
+{"tau_xv88_broadside_railgun_smp_pr"	("v_1_i_0" c(300) c1(tau_xv88_broadside_railgun_smp_pr)	cp(20)	t(all non) s(tau) g(xv88_2) b(v4)) {cost 520} {score 50} {fore -0.6}}
+
+{"tau_xv88_broadside_railgun_pr_skm"	("v_1_i_0" c(300) c1(tau_xv88_broadside_railgun_pr_skm)	cp(20)	t(all non) s(tau) g(xv88_3) b(v4)) {cost 580} {score 50} {fore -0.6}}
+
+
+;Инициация спавна
+{"tau_xv8_crisis_arb_arb"		("v_1_i_0" c(0) c1(tau_xv8_crisis_arb_arb) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_arb_bc"		("v_1_i_0" c(0) c1(tau_xv8_crisis_arb_bc) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_arb_fl"		("v_1_i_0" c(0) c1(tau_xv8_crisis_arb_fl) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_bc_bc"			("v_1_i_0" c(0) c1(tau_xv8_crisis_bc_bc) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_bc_fl"			("v_1_i_0" c(0) c1(tau_xv8_crisis_bc_fl) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_com_bc_arb"	("v_1_i_0" c(0) c1(tau_xv8_crisis_com_pc_arb) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_com_bc_smp"	("v_1_i_0" c(0) c1(tau_xv8_crisis_com_pc_smp) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_com_fl_arb"	("v_1_i_0" c(0) c1(tau_xv8_crisis_com_fl_arb) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_com_fus_arb"	("v_1_i_0" c(0) c1(tau_xv8_crisis_com_fus_arb) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_com_pc_arb"	("v_1_i_0" c(0) c1(tau_xv8_crisis_com_pc_arb) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_com_pc_smp"	("v_1_i_0" c(0) c1(tau_xv8_crisis_com_pc_smp) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_com_ion_arb"	("v_1_i_0" c(0) c1(tau_xv8_crisis_com_ion_arb) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_com_ion_smp"	("v_1_i_0" c(0) c1(tau_xv8_crisis_com_ion_smp) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_fl_fl"			("v_1_i_0" c(0) c1(tau_xv8_crisis_fl_fl) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_fus_arb"		("v_1_i_0" c(0) c1(tau_xv8_crisis_fus_arb) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_fus_bc"		("v_1_i_0" c(0) c1(tau_xv8_crisis_fus_bc) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_fus_fl"		("v_1_i_0" c(0) c1(tau_xv8_crisis_fus_fl) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_fus_fus"		("v_1_i_0" c(0) c1(tau_xv8_crisis_fus_fus) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_ion_bc"		("v_1_i_0" c(0) c1(tau_xv8_crisis_ion_bc) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_ion_ion"		("v_1_i_0" c(0) c1(tau_xv8_crisis_ion_ion) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_ion_pc"		("v_1_i_0" c(0) c1(tau_xv8_crisis_ion_pc) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_pc_arb"		("v_1_i_0" c(0) c1(tau_xv8_crisis_pc_arb) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_pc_bc"			("v_1_i_0" c(0) c1(tau_xv8_crisis_pc_bc) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_pc_fl"			("v_1_i_0" c(0) c1(tau_xv8_crisis_pc_fl) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_pc_fus"		("v_1_i_0" c(0) c1(tau_xv8_crisis_pc_fus) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_crisis_pc_pc"			("v_1_i_0" c(0) c1(tau_xv8_crisis_pc_pc) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_heavy_bc_arb"			("v_1_i_0" c(0) c1(tau_xv8_heavy_bc_arb) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_heavy_com_ion_arb"	("v_1_i_0" c(0) c1(tau_xv8_heavy_com_ion_arb) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_heavy_com_pc_arb"		("v_1_i_0" c(0) c1(tau_xv8_heavy_com_pc_arb) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_heavy_fus_arb"		("v_1_i_0" c(0) c1(tau_xv8_heavy_fus_arb) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+{"tau_xv8_heavy_pc_arb"			("v_1_i_0" c(0) c1(tau_xv8_heavy_pc_arb) t(all non) s(tau) g(term_non) cp(5) cw(1) b(non)) {cost 1} {fore 1}}
+
+
+
+;=================================Средняя техника=================================;
+
+;T2 Рыба дьявол - карабины
+{"tau_devil_fish"								("v_1_i_1" c(120) c1(tau_devil_fish) t(all sup_sct) s(tau) n1(tanker:4) g(tank_1) cp(10) b(v5)) {level 1} {cost 240} {score 25} {fore -3}}
+
+;T2 Рыба дьявол - ракеты
+{"tau_devil_fish_ml"							("v_1_i_1" c(120) c1(tau_devil_fish_ml) t(all veh_a_veh) s(tau) n1(tanker:4) g(tank_1) cp(10) b(v5)) {level 1} {cost 360} {score 25} {fore -3}}
+
+;T2 Рыба дьявол - скорострельные пушки
+{"tau_devil_fish_bc"							("v_1_i_1" c(120) c1(tau_devil_fish_bc) t(all veh_a_inf) s(tau) n1(tanker:4) g(tank_1) cp(10) b(v5)) {level 1} {cost 280} {score 25} {fore -3}}
+
+
+;T3 HammerHead - ION
+{"tau_hammer_head_ion_bc"						("v_1_i_1" c(120) c1(tau_hammer_head_ion_bc) t(all veh_a_inf) s(tau) n1(tanker:3) g(tank_2) cp(20) b(v5)) {level 1} {cost 560} {score 55} {fore -7}}
+
+;T3 HammerHead - ION - SMP
+{"tau_hammer_head_ion_ml"						("v_1_i_1" c(120) c1(tau_hammer_head_ion_ml) t(all veh_a_inf) s(tau) n1(tanker:3) g(tank_2) cp(20) b(v5)) {level 1} {cost 600} {score 55} {fore -7}}
+
+;T3 HammerHead - ION - IONCB
+{"tau_hammer_head_ion_icb"						("v_1_i_1" c(120) c1(tau_hammer_head_ion_icb) t(all veh_a_inf) s(tau) n1(tanker:3) g(tank_2) cp(20) b(v5)) {level 1} {cost 700} {score 55} {fore -7}}
+
+
+;T3 HammerHead - Rail
+{"tau_hammer_head_rg_bc"						("v_1_i_1" c(120) c1(tau_hammer_head_rg_bc) t(all veh_a_veh) s(tau) n1(tanker:3) g(tank_3) cp(25) b(v5)) {level 1} {cost 670} {score 55} {fore -7}}
+
+;T3 HammerHead - Rail - SMP
+{"tau_hammer_head_rg_ml"						("v_1_i_1" c(120) c1(tau_hammer_head_rg_ml) t(all veh_a_veh) s(tau) n1(tanker:3) g(tank_3) cp(25) b(v5)) {level 1} {cost 700} {score 55} {fore -7}}
+
+;T3 HammerHead - Rail - IONCB
+{"tau_hammer_head_rg_icb"						("v_1_i_1" c(120) c1(tau_hammer_head_rg_icb) t(all veh_a_veh) s(tau) n1(tanker:3) g(tank_3) cp(25) b(v5)) {level 1} {cost 800} {score 55} {fore -7}}
+
+;=================================Герои=================================;
+;гвардейцы
+;ZAM;("squad_with3types" side(tau) name(sq_tau_guard) 			c(120) g(h_1) c1(tau_guard_serg_pr:1) c2(tau_guard_lg:14) c3(tau_guard_lg_01:5) b(hero) t(all inf_com) level(1) cost(1) f(-1))
+
+;Крууты
+;ZAM;("squad_with2types" side(tau) name(sq_tau_kroot) 			c(120) g(h_1) c1(kroot_shaper:1) c2(kroot:9) b(hero) t(pulse inf_sab) level(1) cost(2) f(-1))
+
+;Псы
+;ZAM;{"tau_kroot_hound_1"	("v_1_i_0" c1(tau_kroot_hound_1:10)	c(120) t(all non) s(tau) cp(1) g(h_1) b(hero)) level(1) cost(2) {fore -2}}
+
+;Веспиды
+;ZAM;("squad_with1types" side(tau) name(vespid_squad) 			c(120) g(h_4) c1(vespid:5) b(hero) t(pulse inf_a_inf) level(1) cost(2) f(-3.5))
+
+;Спец.кризисы
+;ZAM;{"crisis_squad_hero"						("v_3_i_0" c(300) c1(test_xv8_armored_ml) c2(xv8_com_pc_sms:2) c3(tau_attack_drone:2) 	t(all sup_a_all) s(tau) g(h_5) cp(6) b(hero)) {level 1} {cost 4} {score 15} {fore -0.8}}
+
+;Телохранители c Эфирным (Пока без него )
+;ZAM;("squad_with1types" side(tau) name(bonded_squad_sp) 			c(240) g(h_6) c1(bonded:8) b(hero) t(pulse inf_vet) level(1) cost(2) f(-3.5))
+
+
+
+
+
+;Выкладки для бота
+
+;Дрон - генератор щитов
+;ZAM;{"tau_drone_shild_bot"									("v_s" c(30) c1(tau_shild_drone) n1(fw_pr:8) t(all free_inf_com) s(tau) g(non) cp(4) b(non)) {level 1} {cost 45} {score 1} {fore -17}}
+
+
+;Дрон - Спареные карабины
+;ZAM;{"tau_drone_pc_bot"									("v_3_i_0" c(35) c1(tau_shild_drone) c2(tau_attack_drone) c3(tau_attack_drone) t(all free_veh_a_all) s(tau) g(non) cp(5) b(non)) {level 1} {cost 50} {score 1} {fore -9}}
+
+;Дрон - Ракеты
+;ZAM;{"tau_drone_ml_bot"									("v_2_i_0" c(35) c1(tau_attack_drone_ml) c2(tau_shild_drone) 		t(all free_veh_a_all) s(tau) g(non) cp(3) b(non)) {level 1} {cost 60} {score 1} {fore -9}}
+
+;Дрон - Спареные Скорострелки
+;ZAM;{"tau_gun_drone_bot"									("v_3_i_0" c(35) c1(tau_shild_drone) c2(tau_gun_drone_bc) c3(tau_gun_drone_bc) 		t(all free_veh_a_all) s(tau) g(non) cp(7) b(non)) {level 1} {cost 60} {score 1} {fore -9}}
+

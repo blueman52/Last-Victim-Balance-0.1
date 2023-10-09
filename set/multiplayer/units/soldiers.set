@@ -1,0 +1,45 @@
+;SDL
+(define "soldier"
+	{"mp/%side/%breed"
+		{tags   "%tags %side infantry man"}
+		{cp     %cp}
+		{score  %score}
+		{basic}
+		{breed}
+		{cw %cw}
+	}
+)
+
+(define "spacemarine"
+	{"mp/%side/%breed"
+		{tags   "%tags spacemarine %side infantry man"}
+		{cp     %cp}
+		{score  %score}
+		{basic}
+		{breed}
+		{cw %cw}
+	}
+)
+
+;(include "soldiers/ams.set")
+;(include "soldiers/ars.set")
+;(include "soldiers/bas.set")
+;(include "soldiers/bls.set")
+;(include "soldiers/bps.set")
+(include "soldiers/das.set")
+;(include "soldiers/dgs.set")
+;(include "soldiers/ets.set")
+;(include "soldiers/eld.set")
+;(include "soldiers/ifs.set")
+(include "soldiers/igs.set")
+;(include "soldiers/kgs.set")
+(include "soldiers/tau.set")
+;(include "soldiers/ums.set")
+
+;(include "soldiers/rep.set")
+;(include "soldiers/cis.set")
+;(include "soldiers/emp.set")
+;(include "soldiers/reb.set")
+
+;(include "soldiers/lbd.set")
+;(include "soldiers/cmb.set")

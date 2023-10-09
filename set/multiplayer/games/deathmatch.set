@@ -1,0 +1,26 @@
+{game
+	{class combat}
+	{order 4}
+	{parameters "freezeTime=5"}
+	{settings
+		{options 			gameDuration enableSpectators}
+		{optionsAdvanced 	preparationTime friendlyFire fogOfWar showPiercing showDamageReports useUnitLevelRestrictions}
+		{optionsRanked 		}
+		{fogOfWar 			fog_realistic}
+		{difficulty 		multiplayer}
+		{gameDuration 		"30 min"}
+		{preparationTimeMin	0}
+		{preparationTimeMax	60}
+		{preparationTime	15}
+		{impregnableTimeout	0}
+		{floraRespawn 		0}
+		{friendlyFire 0}
+		{showPiercing}
+		{showDamageReports}
+		{useUnitLevelRestrictions 0}
+	}
+	{teamSettings
+		{teamsMode deathmatch}
+	}
+	(include "presets.inc")
+}

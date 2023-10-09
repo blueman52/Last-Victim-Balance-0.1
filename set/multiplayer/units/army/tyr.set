@@ -1,0 +1,83 @@
+﻿
+;==========================================Пехота==========================
+
+{"tyr_hormagaunt_1"			("v_1_i_0" c(5) c1(tyr_hormagaunt_1) 	cp(1.5)	t(all veh_a_all) s(tyr) g(tr01) b(non)) {cost 11} {score 2} {fore 1}}
+{"tyr_hormagaunt_11"		("v_1_i_0" c(5) c1(tyr_hormagaunt_1) 	cp(1.5)	t(all veh_a_all) s(tyr) g(tr011) b(non)) {cost 11} {score 2} {fore 1}}
+{"tyr_hormagaunt_12"		("v_1_i_0" c(5) c1(tyr_hormagaunt_1) 	cp(1.5)	t(all veh_a_all) s(tyr) g(tr012) b(non)) {cost 11} {score 2} {fore 1}}
+
+{"tyr_hormagaunt_2"			("v_1_i_0" c(2) c1(tyr_hormagaunt_2) 	cp(1.5)	t(all veh_a_all) s(tyr) g(tr02) b(non)) {cost 11} {score 2} {fore -30}}
+{"tyr_hormagaunt_21"		("v_1_i_0" c(2) c1(tyr_hormagaunt_2) 	cp(1.5)	t(all veh_a_all) s(tyr) g(tr021) b(non)) {cost 11} {score 2} {fore -30}}
+{"tyr_hormagaunt_22"		("v_1_i_0" c(2) c1(tyr_hormagaunt_2) 	cp(1.5)	t(all veh_a_all) s(tyr) g(tr022) b(non)) {cost 11} {score 2} {fore -30}}
+
+{"tyr_hormagaunt_3"			("v_1_i_0" c(1) c1(tyr_hormagaunt_3) 	cp(1.5)	t(all veh_a_all) s(tyr) g(tr03) b(non)) {cost 13} {score 2} {fore -240}}
+{"tyr_hormagaunt_31"		("v_1_i_0" c(1) c1(tyr_hormagaunt_3) 	cp(1.5)	t(all veh_a_all) s(tyr) g(tr031) b(non)) {cost 13} {score 2} {fore -240}}
+{"tyr_hormagaunt_32"		("v_1_i_0" c(1) c1(tyr_hormagaunt_3) 	cp(1.5)	t(all veh_a_all) s(tyr) g(tr032) b(non)) {cost 13} {score 2} {fore -240}}
+
+{"tyr_termagant_1"			("v_1_i_0" c(2) c1(tyr_termagant_1) 	cp(2.5)	t(all veh_a_all) s(tyr) g(tr04) b(non)) {cost 11} {score 4} {fore -30}}
+{"tyr_termagant_11"			("v_1_i_0" c(2) c1(tyr_termagant_1) 	cp(2.5)	t(all veh_a_all) s(tyr) g(tr041) b(non)) {cost 11} {score 4} {fore -30}}
+{"tyr_termagant_2"			("v_1_i_0" c(2) c1(tyr_termagant_2) 	cp(2.5)	t(all veh_a_all) s(tyr) g(tr05) b(non)) {cost 13} {score 4} {fore -60}}
+{"tyr_termagant_21"			("v_1_i_0" c(2) c1(tyr_termagant_2) 	cp(2.5)	t(all veh_a_all) s(tyr) g(tr051) b(non)) {cost 13} {score 4} {fore -60}}
+{"tyr_termagant_3"			("v_1_i_0" c(2) c1(tyr_termagant_3) 	cp(2.5)	t(all veh_a_all) s(tyr) g(tr06) b(non)) {cost 13} {score 4} {fore -120}}
+{"tyr_termagant_31"			("v_1_i_0" c(2) c1(tyr_termagant_3) 	cp(2.5)	t(all veh_a_all) s(tyr) g(tr061) b(non)) {cost 13} {score 4} {fore -120}}
+
+
+{"tyr_ripper"				("v_1_i_0" c(11) c1(tyr_ripper) 	cp(0.5)	t(all veh_a_all) s(tyr) g(rip1) b(non)) {cost 11} {score 2} {fore -1}}
+{"tyr_ripper1"				("v_1_i_0" c(11) c1(tyr_ripper) 	cp(0.5)	t(all veh_a_all) s(tyr) g(rip2) b(non)) {cost 11} {score 2} {fore -1}}
+{"tyr_ripper2"				("v_1_i_0" c(11) c1(tyr_ripper) 	cp(0.5)	t(all veh_a_all) s(tyr) g(rip3) b(non)) {cost 11} {score 2} {fore -1}}
+{"tyr_ripper3"				("v_1_i_0" c(11) c1(tyr_ripper) 	cp(0.5)	t(all veh_a_all) s(tyr) g(rip4) b(non)) {cost 11} {score 2} {fore -1}}
+{"tyr_ripper4"				("v_1_i_0" c(11) c1(tyr_ripper) 	cp(0.5)	t(all veh_a_all) s(tyr) g(rip5) b(non)) {cost 11} {score 2} {fore -1}}
+{"tyr_ripper5"				("v_1_i_0" c(11) c1(tyr_ripper) 	cp(0.5)	t(all veh_a_all) s(tyr) g(rip6) b(non)) {cost 11} {score 2} {fore -1}}
+
+
+{"tyr_spore_mine"			("v_1_i_0" c(120) c1(tyr_spore_mine) 	cp(0.5)	t(all strike) s(tyr) g(spm10) b(non)) {cost 13} {score 2} {fore 0.5}}
+{"tyr_spore_mine1"			("v_1_i_0" c(120) c1(tyr_spore_mine) 	cp(0.5)	t(all strike) s(tyr) g(spm12) b(non)) {cost 13} {score 2} {fore 0.5}}
+{"tyr_spore_mine2"			("v_1_i_0" c(120) c1(tyr_spore_mine) 	cp(0.5)	t(all strike) s(tyr) g(spm13) b(non)) {cost 13} {score 2} {fore 0.5}}
+{"tyr_spore_mine3"			("v_1_i_0" c(120) c1(tyr_spore_mine) 	cp(0.5)	t(all strike) s(tyr) g(spm14) b(non)) {cost 13} {score 2} {fore 0.5}}
+{"tyr_spore_mine4"			("v_1_i_0" c(120) c1(tyr_spore_mine) 	cp(0.5)	t(all strike) s(tyr) g(spm15) b(non)) {cost 13} {score 2} {fore 0.5}}
+{"tyr_spore_mine5"			("v_1_i_0" c(120) c1(tyr_spore_mine) 	cp(0.5)	t(all strike) s(tyr) g(spm16) b(non)) {cost 13} {score 2} {fore 0.5}}
+
+{"tyr_spore_mine_poison"	("v_1_i_0" c(120) c1(tyr_spore_mine_poison) 	cp(0.5)	t(all strike) s(tyr) g(spm30) b(non)) {cost 13} {score 2} {fore 0}}
+{"tyr_spore_mine_poison1"	("v_1_i_0" c(120) c1(tyr_spore_mine_poison) 	cp(0.5)	t(all strike) s(tyr) g(spm31) b(non)) {cost 13} {score 2} {fore 0}}
+{"tyr_spore_mine_poison2"	("v_1_i_0" c(120) c1(tyr_spore_mine_poison) 	cp(0.5)	t(all strike) s(tyr) g(spm32) b(non)) {cost 13} {score 2} {fore 0}}
+{"tyr_spore_mine_poison3"	("v_1_i_0" c(120) c1(tyr_spore_mine_poison) 	cp(0.5)	t(all strike) s(tyr) g(spm33) b(non)) {cost 13} {score 2} {fore 0}}
+{"tyr_spore_mine_poison4"	("v_1_i_0" c(120) c1(tyr_spore_mine_poison) 	cp(0.5)	t(all strike) s(tyr) g(spm34) b(non)) {cost 13} {score 2} {fore 0}}
+{"tyr_spore_mine_poison5"	("v_1_i_0" c(120) c1(tyr_spore_mine_poison) 	cp(0.5)	t(all strike) s(tyr) g(spm35) b(non)) {cost 13} {score 2} {fore 0}}
+
+{"tyr_spore_mine_acid"		("v_1_i_0" c(120) c1(tyr_spore_mine_acid) 	cp(0.5)	t(all strike) s(tyr) g(spm20) b(non)) {cost 13} {score 2} {fore -1}}
+{"tyr_spore_mine_acid1"		("v_1_i_0" c(120) c1(tyr_spore_mine_acid) 	cp(0.5)	t(all strike) s(tyr) g(spm21) b(non)) {cost 13} {score 2} {fore -1}}
+{"tyr_spore_mine_acid2"		("v_1_i_0" c(120) c1(tyr_spore_mine_acid) 	cp(0.5)	t(all strike) s(tyr) g(spm22) b(non)) {cost 13} {score 2} {fore -1}}
+{"tyr_spore_mine_acid3"		("v_1_i_0" c(120) c1(tyr_spore_mine_acid) 	cp(0.5)	t(all strike) s(tyr) g(spm23) b(non)) {cost 13} {score 2} {fore -1}}
+{"tyr_spore_mine_acid4"		("v_1_i_0" c(120) c1(tyr_spore_mine_acid) 	cp(0.5)	t(all strike) s(tyr) g(spm24) b(non)) {cost 13} {score 2} {fore -1}}
+{"tyr_spore_mine_acid5"		("v_1_i_0" c(120) c1(tyr_spore_mine_acid) 	cp(0.5)	t(all strike) s(tyr) g(spm25) b(non)) {cost 13} {score 2} {fore -1}}
+
+
+{"tyr_warrior_melee_1"		("v_1_i_0" c(4) c1(tyr_warrior_melee_1) 	cp(2.5)	t(all veh_a_all) s(tyr) g(tr11) b(non)) {cost 11} {score 4} {fore -60}}
+{"tyr_warrior_melee_2"		("v_1_i_0" c(4) c1(tyr_warrior_melee_2) 	cp(2.5)	t(all veh_a_all) s(tyr) g(tr12) b(non)) {cost 11} {score 4} {fore -120}}
+{"tyr_warrior_melee_3"		("v_1_i_0" c(2) c1(tyr_warrior_melee_3) 	cp(2.5)	t(all veh_a_all) s(tyr) g(tr13) b(non)) {cost 13} {score 4} {fore -300}}
+
+{"tyr_warrior_ranged_1"		("v_1_i_0" c(4) c1(tyr_warrior_ranged_1) 	cp(5)	t(all veh_a_all) s(tyr) g(tr14) b(non)) {cost 13} {score 8} {fore -60}}
+{"tyr_warrior_ranged_2"		("v_1_i_0" c(4) c1(tyr_warrior_ranged_2) 	cp(5)	t(all veh_a_all) s(tyr) g(tr15) b(non)) {cost 13} {score 8} {fore -120}}
+{"tyr_warrior_ranged_3"		("v_1_i_0" c(3) c1(tyr_warrior_ranged_3) 	cp(5)	t(all veh_a_all) s(tyr) g(tr16) b(non)) {cost 13} {score 8} {fore -200}}
+
+
+{"tyr_biovore"				("v_1_i_0" c(960) c1(tyr_biovore) 			cp(6)	t(all veh_art) s(tyr) g(tr71) b(non)) {cost 13} {score 16} {fore 0.5}}
+{"tyr_biovore_1"			("v_1_i_0" c(960) c1(tyr_biovore) 			cp(6)	t(all veh_art) s(tyr) g(tr72) b(non)) {cost 13} {score 16} {fore 0.5}}
+{"tyr_biovore_2"			("v_1_i_0" c(960) c1(tyr_biovore) 			cp(6)	t(all veh_art) s(tyr) g(tr73) b(non)) {cost 13} {score 16} {fore 0.5}}
+{"tyr_biovore_3"			("v_1_i_0" c(960) c1(tyr_biovore) 			cp(6)	t(all veh_art) s(tyr) g(tr74) b(non)) {cost 13} {score 16} {fore 0.5}}
+;{"tyr_biovore_4"			("v_1_i_0" c(960) c1(tyr_biovore) 			cp(6)	t(all veh_art) s(tyr) g(tr75) b(non)) {cost 13} {score 16} {fore 0.5}}
+
+{"tyr_carnifex_1"			("v_1_i_0" c(120) c1(tyr_carnifex_1) 	cp(6)	t(all veh_a_all) s(tyr) g(tr81) b(non)) {cost 13} {score 24} {fore -6}}
+
+{"tyr_gargoyle"				("v_1_i_0" c(2) c1(tyr_gargoyle) 	cp(2.5)	t(all veh_a_all) s(tyr) g(tr21) b(non)) {cost 13} {score 8} {fore -300}}
+{"tyr_gargoyle1"			("v_1_i_0" c(2) c1(tyr_gargoyle) 	cp(2.5)	t(all veh_a_all) s(tyr) g(tr211) b(non)) {cost 13} {score 8} {fore -300}}
+{"tyr_shrike_1"				("v_1_i_0" c(4) c1(tyr_shrike_1) 	cp(5)	t(all veh_a_all) s(tyr) g(tr31) b(non)) {cost 13} {score 8} {fore -150}}
+{"tyr_shrike_11"			("v_1_i_0" c(4) c1(tyr_shrike_1) 	cp(5)	t(all veh_a_all) s(tyr) g(tr311) b(non)) {cost 13} {score 8} {fore -150}}
+
+
+
+{"tyr_hormagaunt_330"		("v_1_i_0" c(5) c1(tyr_hormagaunt_3) 	cp(1.5)	t(all veh_a_all) s(tyr) g(tr0303) b(non)) {cost 13} {score 2} {fore -96}}
+{"tyr_hormagaunt_331"		("v_1_i_0" c(5) c1(tyr_hormagaunt_3) 	cp(1.5)	t(all veh_a_all) s(tyr) g(tr0313) b(non)) {cost 13} {score 2} {fore -96}}
+{"tyr_hormagaunt_332"		("v_1_i_0" c(5) c1(tyr_hormagaunt_3) 	cp(1.5)	t(all veh_a_all) s(tyr) g(tr0323) b(non)) {cost 13} {score 2} {fore -96}}
+{"tyr_hormagaunt_334"		("v_1_i_0" c(5) c1(tyr_hormagaunt_3) 	cp(1.5)	t(all veh_a_all) s(tyr) g(tr0333) b(non)) {cost 13} {score 2} {fore -192}}
+{"tyr_hormagaunt_335"		("v_1_i_0" c(5) c1(tyr_hormagaunt_3) 	cp(1.5)	t(all veh_a_all) s(tyr) g(tr0343) b(non)) {cost 13} {score 2} {fore -192}}
+{"tyr_hormagaunt_336"		("v_1_i_0" c(5) c1(tyr_hormagaunt_3) 	cp(1.5)	t(all veh_a_all) s(tyr) g(tr0353) b(non)) {cost 13} {score 2} {fore -192}}

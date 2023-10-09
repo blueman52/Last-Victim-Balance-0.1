@@ -1,0 +1,10 @@
+﻿;ASV
+
+{units
+	(include "define.inc")
+	(include "soldiers.set")
+	(include "army/das.set")
+	(include "army/igs.set")
+	
+	(include "bot_mark.inc")
+}
