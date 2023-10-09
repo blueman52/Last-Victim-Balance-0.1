@@ -1,7 +1,7 @@
 ﻿;=================================Отряды=================================;
 
 ;T0 Отряд рядовых с лазганами 
-("squad_with3types" side(igs) name(sq_lg) 		c(1) g(sq_1) c1(serg_lp:1) c2(ig_lg:3) c3(ig_lg_01:6) b(squad1) t(lasgun inf_com) level(1) cost(25) f(1))
+("squad_with3types" side(igs) name(sq_lg) 		c(1) g(sq_1) c1(serg_lp:1) c2(ig_lg:3) c3(ig_lg_01:6) b(squad1) t(lasgun inf_com) level(1) cost(20) f(1))
 
 ;T0 Отряд рядовых с огнемётами 
 ("squad_with4types" side(igs) name(sq_fl) 		c(1) g(sq_1) c1(serg_lp:1) c2(ig_lg:3) c3(ig_lg_01:3) c4(ig_fl:3) b(squad1) t(melta inf_a_veh) level(1) cost(35) f(1))
@@ -15,10 +15,10 @@
 ("squad_with4types" side(igs) name(sq_gl) 		c(30) g(sq_2) c1(serg_lp:1) c2(ig_lg:3) c3(ig_lg_01:3) c4(ig_gl:3) b(squad1) t(lasgun inf_tac) level(1) cost(60) f(1))
 
 ;T1 Отряд рядовых с плазмой
-("squad_with4types" side(igs) name(sq_pg) 		c(30) g(sq_2) c1(serg_pp:1) c2(ig_lg:4) c3(ig_lg_01:2) c4(ig_pg:3) b(squad1) t(plasma inf_tac) level(1) cost(80) f(1))
+("squad_with4types" side(igs) name(sq_pg) 		c(30) g(sq_2) c1(serg_pp:1) c2(ig_lg:4) c3(ig_lg_01:2) c4(ig_pg:3) b(squad1) t(plasma inf_tac) level(1) cost(70) f(1))
 
 ;T1 Отряд рядовых с мельтой
-("squad_with4types" side(igs) name(sq_ml) 		c(30) g(sq_2) c1(serg_ml:1) c2(ig_lg:2) c3(ig_lg_01:4) c4(ig_ml:3) b(squad1) t(melta inf_a_veh) level(1) cost(65) f(1))
+("squad_with4types" side(igs) name(sq_ml) 		c(30) g(sq_2) c1(serg_ml:1) c2(ig_lg:2) c3(ig_lg_01:4) c4(ig_ml:3) b(squad1) t(melta inf_a_veh) level(1) cost(60) f(1))
 
 
 
@@ -26,10 +26,10 @@
 ("squad_with5types" side(igs) name(sq_vet_lg)	c(60) g(sq_4) c1(ig_vet_lg:3) c2(ig_vet_lg_01:2) c3(ig_vet_lg_02:2) c4(ig_vet_gl:2) c5(ig_vox:1) b(squad1) t(heavy_lasgun inf_vet) level(1) cost(80) f(-3))
 
 ;T1-2 Отряд ветеранов с плазмами
-("squad_with5types" side(igs) name(sq_vet_pg)	c(60) g(sq_4) c1(ig_vet_lg:2) c2(ig_vet_lg_01:2) c3(ig_vet_lg_02:1) c4(ig_vet_pg:4) c5(ig_vox:1) b(squad1) t(lasgun_lasgun plasma inf_vet) level(1) cost(120) f(-3))
+("squad_with5types" side(igs) name(sq_vet_pg)	c(60) g(sq_4) c1(ig_vet_lg:2) c2(ig_vet_lg_01:2) c3(ig_vet_lg_02:1) c4(ig_vet_pg:4) c5(ig_vox:1) b(squad1) t(lasgun_lasgun plasma inf_vet) level(1) cost(110) f(-3))
 
 ;T1-2 Отряд ветеранов с мельтами
-("squad_with5types" side(igs) name(sq_vet_ml)	c(60) g(sq_4) c1(ig_vet_lg:2) c2(ig_vet_lg_01:2) c3(ig_vet_lg_02:1) c4(ig_vet_ml:4) c5(ig_vox:1) b(squad1) t(heavy_lasgun melta inf_a_veh) level(1) cost(85) f(-3))
+("squad_with5types" side(igs) name(sq_vet_ml)	c(60) g(sq_4) c1(ig_vet_lg:2) c2(ig_vet_lg_01:2) c3(ig_vet_lg_02:1) c4(ig_vet_ml:4) c5(ig_vox:1) b(squad1) t(heavy_lasgun melta inf_a_veh) level(1) cost(90) f(-3))
 
 ;T2 Отряд касаркинов 
 ("squad_with3types" side(igs) name(sq_kasrkin)	c(300) g(sq_5) c1(kasrkin_hg:7) c2(kasrkin_pg:2) c3(kasrkin_pc:1) b(squad1) t(heavy_lasgun inf_vet) level(1) cost(280) f(-0.6))
